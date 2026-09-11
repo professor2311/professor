@@ -1,0 +1,8 @@
+{
+  "name": "Balance",
+  "description": "Mindful digital balance and daily vitality dashboard powered by on-device intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

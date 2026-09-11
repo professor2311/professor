@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-primary: #0f5238;
+  --color-primary-container: #2d6a4f;
+  --color-primary-fixed: #b1f0ce;
+  --color-primary-fixed-dim: #95d4b3;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed: #002114;
+  --color-secondary: #436086;
+  --color-secondary-container: #b3d1fd;
+  --color-secondary-fixed: #d3e3ff;
+  --color-secondary-fixed-dim: #abc8f4;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #3c597f;
+  --color-on-secondary-fixed: #001c39;
+  --color-tertiary: #7c2e19;
+  --color-tertiary-container: #9b452e;
+  --color-tertiary-fixed: #ffdbd2;
+  --color-tertiary-fixed-dim: #ffb4a1;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #3c0800;
+  --color-surface: #fbf8ff;
+  --color-surface-dim: #d7d8f4;
+  --color-surface-bright: #fbf8ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f2ff;
+  --color-surface-container: #edecff;
+  --color-surface-container-high: #e6e6ff;
+  --color-surface-container-highest: #e0e0fc;
+  --color-on-surface: #181a2e;
+  --color-on-surface-variant: #404943;
+  --color-outline: #707973;
+  --color-outline-variant: #bfc9c1;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+}
+
+/* Material Symbols icon sizing and font utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
